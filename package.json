@@ -1,0 +1,24 @@
+{
+  "name": "injector-engineering",
+  "version": "0.1.0",
+  "description": "Local-first code maps and evidence bundles for engineering agents.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "injector": "bin/injector.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/injector.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ]
+}
